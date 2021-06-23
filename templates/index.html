@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' rel='stylesheet'>
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="/static/css/style.css"/>
+
+  <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js'></script>
+  <script type="text/javascript" src="/static/js/scripts.js"></script>
+
+</head>
+
+<body >
+    <title>Home</title>
+<nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Compiler Design Tool Suite	 </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="{{ url_for('home') }}">Home	 <span class="sr-only">(current)</span></a>
+      </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('syntax') }}">Syntax Tree</a>
+      </li>&nbsp;&nbsp;&nbsp;&nbsp;
+        <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('parse') }}">Parse Tree</a>
+      </li>&nbsp;&nbsp;&nbsp;&nbsp;
+     <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('pre') }}">Infix to Prefix</a>
+      </li>&nbsp;&nbsp;&nbsp;&nbsp;
+    <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('pos') }}">Infix to Postfix</a>
+      </li>&nbsp;&nbsp;&nbsp;&nbsp;
+        <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('evalpost') }}">Evaluate Postfix</a>
+      </li>&nbsp;&nbsp;&nbsp;&nbsp;
+    <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('evalpre') }}">Evaluate Prefix</a>
+      </li>&nbsp;&nbsp;&nbsp;&nbsp;
+          <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('evalin') }}">Evaluate Infix</a>
+      </li>&nbsp;&nbsp;&nbsp;&nbsp;
+    </ul>
+  </div>
+</nav>
+
+<center>
+<h1>Phases of Compiler</h1>
+<br>
+<img src="static/images/phases_of_compiler.png"  width="500" height="600">
+</body>
+</html>
+
