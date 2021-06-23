@@ -4,21 +4,13 @@ The compilation process is a sequence of various phases. Each phase takes input 
 
 This system comprises of 4 modules as follows:
 
-**Syntax Analysis tools**:
+**Syntax Analysis tools** - Converting a given expression into its Syntax tree or Abstract syntax tree (AST).
 
-  Converting a given expression into its Syntax tree or Abstract syntax tree (AST).
+**Semantic Analysis tools** - Converting a given expression into its Parse Tree.
 
-**Semantic Analysis tools**:
+**Intermediate Code generation tools** - Converting a given infix expression into its Prefix and postfix form.
 
-  Converting a given expression into its Parse Tree.
-
-**Intermediate Code generation tools**:
-
-  Converting a given infix expression into its Prefix and postfix form.
-
-**Expression evaluation tools**:
-
-  Evaluating a given prefix, infix or postfix expression into a single value using Stack.
+**Expression evaluation tools** - Evaluating a given prefix, infix or postfix expression into a single value using Stack.
 
 Tech Stack:
 
@@ -26,5 +18,5 @@ Frontend - HTML, CSS, Bootstrap
 
 Backend - Flask Framework(Python)
 
-Libraries Used -  os (For path purpose), argparse (For parsing arguments of command line interface), textwrap (For multi-line text formatting), flask_caching (For configuring browser cache storage)
+Libraries Used -  os (For path purpose), argparse (For parsing arguments of command line interface), textwrap (For multi-line text formatting), flask_caching (For configuring browser cache storage), graphviz (graph visualization tool)
 
