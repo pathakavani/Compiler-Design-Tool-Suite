@@ -4,19 +4,19 @@ The compilation process is a sequence of various phases. Each phase takes input 
 
 This system comprises of 4 modules as follows:
 
-**Syntax Analysis tools**
+**Syntax Analysis tools**:
 
   Converting a given expression into its Syntax tree or Abstract syntax tree (AST).
 
-**Semantic Analysis tools**
+**Semantic Analysis tools**:
 
   Converting a given expression into its Parse Tree.
 
-**Intermediate Code generation tools**
+**Intermediate Code generation tools**:
 
   Converting a given infix expression into its Prefix and postfix form.
 
-**Expression evaluation tools**
+**Expression evaluation tools**:
 
   Evaluating a given prefix, infix or postfix expression into a single value using Stack.
 
